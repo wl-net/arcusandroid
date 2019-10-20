@@ -1,2 +1,10 @@
 language: android
 dist: trusty
+android:
+  components:
+    - build-tools-28.0.3
+    - android-26
+    - add-on
+  licenses:
+    - 'android-sdk-license-.+'
+    - 'google-gdk-license-.+'
